@@ -1,0 +1,39 @@
+[drops]
+	# Average number of drops per hour, for each pokemon in a pasture (game time, chunk loaded).
+	# One drop is one roll of the pokemon drop table, it can give several items.
+	# 0 disables drops. Maximum 3600, one drop per second.
+	per_hour = 3.0
+
+[filter]
+	# "blacklist": the items below are never dropped.
+	# "whitelist": only the items below are dropped.
+	mode = "blacklist"
+	# Item ids ("minecraft:bone") or item tags with a # ("#c:foods/raw_meat").
+	items = [
+		"#c:foods/raw_meat",
+		"#c:foods/cooked_meat",
+		"#c:foods/raw_fish",
+		"#c:foods/cooked_fish",
+		"minecraft:pufferfish",
+		"minecraft:leather",
+		"minecraft:rabbit_hide",
+		"minecraft:rabbit_foot",
+		"minecraft:bone",
+		"minecraft:bone_block",
+		"minecraft:bone_meal",
+		"minecraft:spider_eye",
+		"minecraft:rotten_flesh",
+		"minecraft:honey_bottle",
+		"minecraft:white_wool",
+		"cobblemon:sharp_beak"
+	]
+
+[friendship]
+	# Extra drop rate at maximum friendship (255), growing with friendship from 0.
+	# 1.0 means twice the rate at 255. 0 disables the bonus. Maximum 10.
+	max_bonus = 1.0
+
+[anti_lag]
+	# A pasture stops dropping while this many item entities or more lie in the area where
+	# its pokemon wander (pastureMaxWanderDistance in the Cobblemon config). 0 disables the limit.
+	max_items_nearby = 32

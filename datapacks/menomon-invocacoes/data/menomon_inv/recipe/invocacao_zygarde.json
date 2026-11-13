@@ -1,0 +1,36 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "group": "menomon_invocacoes",
+ "pattern": [
+  "GSG",
+  "SCS",
+  "GSG"
+ ],
+ "key": {
+  "G": {
+   "item": "cobblemon:dragon_gem"
+  },
+  "S": {
+   "item": "cobblemon:ground_gem"
+  },
+  "C": {
+   "item": "minecraft:echo_shard"
+  }
+ },
+ "result": {
+  "id": "minecraft:carrot_on_a_stick",
+  "count": 1,
+  "components": {
+   "minecraft:custom_data": {
+    "menomon_invocacao": "zygarde"
+   },
+   "minecraft:item_name": "{\"translate\":\"menomon_inv.item.name\",\"fallback\":\"Summon: %s\",\"with\":[{\"text\":\"Zygarde\"}],\"color\":\"gold\"}",
+   "minecraft:lore": [
+    "{\"translate\":\"menomon_inv.lore.where.deep\",\"fallback\":\"Use underground, below Y 0 to summon %s.\",\"with\":[{\"text\":\"Zygarde\"}],\"color\":\"gray\",\"italic\":false}",
+    "{\"translate\":\"menomon_inv.lore.consume\",\"fallback\":\"Consumed when used. 10 min cooldown.\",\"color\":\"dark_gray\",\"italic\":false}"
+   ],
+   "minecraft:enchantment_glint_override": true
+  }
+ }
+}

@@ -1,0 +1,25 @@
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"tapukoko"}] run function menomon_inv:esp/tapukoko
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"tapulele"}] run function menomon_inv:esp/tapulele
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"tapubulu"}] run function menomon_inv:esp/tapubulu
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"tapufini"}] run function menomon_inv:esp/tapufini
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"tornadus"}] run function menomon_inv:esp/tornadus
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"thundurus"}] run function menomon_inv:esp/thundurus
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"landorus"}] run function menomon_inv:esp/landorus
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"okidogi"}] run function menomon_inv:esp/okidogi
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"munkidori"}] run function menomon_inv:esp/munkidori
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"fezandipiti"}] run function menomon_inv:esp/fezandipiti
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"pecharunt"}] run function menomon_inv:esp/pecharunt
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"ogerpon"}] run function menomon_inv:esp/ogerpon
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"koraidon"}] run function menomon_inv:esp/koraidon
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"miraidon"}] run function menomon_inv:esp/miraidon
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"zygarde"}] run function menomon_inv:esp/zygarde
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"diancie"}] run function menomon_inv:esp/diancie
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"magearna"}] run function menomon_inv:esp/magearna
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"manaphy"}] run function menomon_inv:esp/manaphy
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"phione"}] run function menomon_inv:esp/phione
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"volcanion"}] run function menomon_inv:esp/volcanion
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"zarude"}] run function menomon_inv:esp/zarude
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"zeraora"}] run function menomon_inv:esp/zeraora
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"genesect"}] run function menomon_inv:esp/genesect
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"terapagos"}] run function menomon_inv:esp/terapagos
+scoreboard players set @s menomon_inv 0

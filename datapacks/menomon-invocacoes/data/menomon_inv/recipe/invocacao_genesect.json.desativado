@@ -1,0 +1,36 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "group": "menomon_invocacoes",
+ "pattern": [
+  "GSG",
+  "SCS",
+  "GSG"
+ ],
+ "key": {
+  "G": {
+   "item": "cobblemon:bug_gem"
+  },
+  "S": {
+   "item": "cobblemon:steel_gem"
+  },
+  "C": {
+   "item": "cobblemon:old_amber_fossil"
+  }
+ },
+ "result": {
+  "id": "minecraft:carrot_on_a_stick",
+  "count": 1,
+  "components": {
+   "minecraft:custom_data": {
+    "menomon_invocacao": "genesect"
+   },
+   "minecraft:item_name": "{\"translate\":\"menomon_inv.item.name\",\"fallback\":\"Summon: %s\",\"with\":[{\"text\":\"Genesect\"}],\"color\":\"gold\"}",
+   "minecraft:lore": [
+    "{\"translate\":\"menomon_inv.lore.where.any\",\"fallback\":\"Use anywhere to summon %s.\",\"with\":[{\"text\":\"Genesect\"}],\"color\":\"gray\",\"italic\":false}",
+    "{\"translate\":\"menomon_inv.lore.consume\",\"fallback\":\"Consumed when used. 10 min cooldown.\",\"color\":\"dark_gray\",\"italic\":false}"
+   ],
+   "minecraft:enchantment_glint_override": true
+  }
+ }
+}

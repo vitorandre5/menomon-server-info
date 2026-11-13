@@ -1,0 +1,34 @@
+{
+  "allowMovement": {
+    "io.github.bumblesoftware.fastload.client.BuildingTerrainScreen": true,
+    "net.minecraft.class_433": false,
+    "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": false,
+    "com.cobblemon.mod.common.client.gui.summary.Summary": true,
+    "com.cobblemon.mod.common.client.gui.battle.BattleGUI": true,
+    "me.shedaniel.clothconfig2.gui.ClothConfigScreen": false,
+    "net.minecraft.class_434": false,
+    "com.cobblemon.mod.common.client.gui.pokedex.PokedexGUI": false,
+    "net.minecraft.class_429": false,
+    "me.flashyreese.mods.reeses_sodium_options.client.gui.SodiumVideoOptionsScreen": false,
+    "net.minecraft.class_443": false,
+    "dev.emi.emi.screen.BoMScreen": true,
+    "dev.emi.emi.screen.RecipeScreen": true,
+    "com.cobblemon.mod.common.client.gui.pc.PCGUI": true,
+    "net.minecraft.class_5375": true,
+    "de.maxhenkel.voicechat.gui.onboarding.IntroductionOnboardingScreen": true,
+    "net.minecraft.class_458": true,
+    "net.minecraft.class_6599": true,
+    "betteradvancements.common.gui.BetterAdvancementsScreen": true,
+    "name.modid.client.BattleLogScreen": true,
+    "com.cobblemon.mod.common.client.gui.interact.wheel.InteractWheelGUI": true,
+    "dev.cobbleaction.client.BattleCursorScreen": true
+  },
+  "hideBackground": {
+    "me.shedaniel.rei.impl.client.gui.screen.DefaultDisplayViewingScreen": true,
+    "com.cobblemon.mod.common.client.gui.summary.Summary": true,
+    "com.cobblemon.mod.common.client.gui.pokedex.PokedexGUI": true,
+    "dev.emi.emi.screen.RecipeScreen": true,
+    "com.cobblemon.mod.common.client.gui.pc.PCGUI": true,
+    "com.cobblemon.mod.common.client.gui.interact.wheel.InteractWheelGUI": true
+  }
+}

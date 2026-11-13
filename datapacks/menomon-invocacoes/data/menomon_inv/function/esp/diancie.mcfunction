@@ -1,0 +1,3 @@
+execute if score @s menomon_inv_cd matches 1.. run return run tellraw @s [{"translate":"menomon_inv.msg.cooldown","fallback":"The legendary energy is still recovering... wait %ss.","color":"gray","with":[{"score":{"name":"@s","objective":"menomon_inv_cd"},"color":"yellow"}]}]
+execute if dimension minecraft:overworld if entity @s[y=-64,dy=63] run return run function menomon_inv:invocar {especie:"diancie",nome:"Diancie"}
+tellraw @s {"translate":"menomon_inv.msg.wrong_place.deep","fallback":"Nothing answered the call. %s only answers underground, below Y 0.","color":"gray","italic":true,"with":[{"text":"Diancie"}]}
