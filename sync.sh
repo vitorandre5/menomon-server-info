@@ -6,7 +6,7 @@ R=/root/menomon-mirror/repo
 export GIT_SSH_COMMAND="ssh -i /root/.ssh/menomon_mirror_ed25519 -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
 cd "$R"
 git pull -q --rebase origin main 2>/dev/null || true
-find . -mindepth 1 -maxdepth 1 ! -name .git ! -name README.md -exec rm -r -- {} +
+find . -mindepth 1 -maxdepth 1 ! -name .git ! -name README.md ! -name sync.sh -exec rm -r -- {} +
 
 # config/ revisado: fora anti-xray, auth, skins, perfis, UUIDs de jogadores e assets de cliente
 tar -C "$SRV" -cf - \
