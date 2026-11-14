@@ -22,4 +22,5 @@ execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft
 execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"zeraora"}] run function menomon_inv:esp/zeraora
 execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"genesect"}] run function menomon_inv:esp/genesect
 execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"terapagos"}] run function menomon_inv:esp/terapagos
+execute if items entity @s weapon.mainhand minecraft:carrot_on_a_stick[minecraft:custom_data={menomon_invocacao:"enamorus"}] run function menomon_inv:esp/enamorus
 scoreboard players set @s menomon_inv 0

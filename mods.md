@@ -96,6 +96,7 @@ Ativos e desativados (`.disabled`). Hash sha256 abreviado.
 | Ping-Wheel-1.12.2-fabric-1.21.1.jar | pingwheel | 1.12.2 | ativo | 0.2 | 9ba63ca5f33c86d0 |
 | placeholder-api-2.4.2+1.21.jar | placeholder-api | 2.4.2+1.21 | ativo | 0.2 | c0187ee299527ac7 |
 | Platform-fabric-1.21.1-1.4.2.jar | platform | 1.4.2 | ativo | 0.8 | 77dbfbdb7cbb661f |
+| playerxp-fabric-1.0.9+1.21.1.jar | playerxp | 1.0.9+1.21.1 | ativo | 0.0 | 22133f464ea4442b |
 | pokeblocks-1.4.0-1.21.1.jar | pokeblocks | 1.4.0-1.21.1 | ativo | 1.6 | c113f9e61a7bef35 |
 | prickle-fabric-1.21.1-21.1.11.jar | prickle | 21.1.11 | ativo | 0.1 | d6d639078aecb727 |
 | radical-gyms-structures-0.7.jar | rgs | 1.21 | ativo | 2.1 | 44bde94c720a3039 |

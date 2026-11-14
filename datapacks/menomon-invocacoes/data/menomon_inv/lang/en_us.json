@@ -31,5 +31,7 @@
  "menomon_inv.lore.where.deeper": "Use deep underground, below Y -32 to summon %s.",
  "menomon_inv.msg.wrong_place.deeper": "Nothing answered the call. %s only answers deep underground, below Y -32.",
  "menomon_inv.lore.where.any": "Use anywhere to summon %s.",
- "menomon_inv.msg.wrong_place.any": "Nothing answered the call. %s only answers anywhere."
+ "menomon_inv.msg.wrong_place.any": "Nothing answered the call. %s only answers anywhere.",
+ "menomon_inv.lore.where.floral": "Use in a flower-filled biome to summon %s.",
+ "menomon_inv.msg.wrong_place.floral": "Nothing answered the call. %s only answers in a flower-filled biome."
 }

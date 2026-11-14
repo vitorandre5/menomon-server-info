@@ -31,5 +31,7 @@
  "menomon_inv.lore.where.deeper": "Use nas profundezas, abaixo da camada Y -32 para chamar %s.",
  "menomon_inv.msg.wrong_place.deeper": "Nada respondeu ao chamado. %s só atende nas profundezas, abaixo da camada Y -32.",
  "menomon_inv.lore.where.any": "Use em qualquer lugar para chamar %s.",
- "menomon_inv.msg.wrong_place.any": "Nada respondeu ao chamado. %s só atende em qualquer lugar."
+ "menomon_inv.msg.wrong_place.any": "Nada respondeu ao chamado. %s só atende em qualquer lugar.",
+ "menomon_inv.lore.where.floral": "Use num bioma florido para chamar %s.",
+ "menomon_inv.msg.wrong_place.floral": "Nada respondeu ao chamado. %s só atende num bioma florido."
 }
