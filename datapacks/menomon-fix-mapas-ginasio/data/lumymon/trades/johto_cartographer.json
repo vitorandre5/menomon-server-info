@@ -1,0 +1,280 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 7.0,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:raptor_bracer"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:flying_gym",
+                    "destination": "cobbleverse:johto_valerio_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§aValerio's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:magnifying_glass"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:bug_gym",
+                    "destination": "cobbleverse:johto_raffaello_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§2Raffaello's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:sweet_milk"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:normal_gym",
+                    "destination": "cobbleverse:johto_chiara_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§fChiara's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:spirit_scarf"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:ghost_gym",
+                    "destination": "cobbleverse:johto_angelo_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§5Angelo's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:heavy_dumbbell"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:fighting_gym",
+                    "destination": "cobbleverse:johto_furio_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§6Furio's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:secret_medicine"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:steel_gym",
+                    "destination": "cobbleverse:johto_jasmine_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§7Jasmine's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:winter_staff"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:ice_gym",
+                    "destination": "cobbleverse:johto_alfredo_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§bAlfredo's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    }
+  ]
+}

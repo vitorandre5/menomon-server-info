@@ -1,0 +1,280 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 7.0,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:onyx_stone"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:ground_gym",
+                    "destination": "cobbleverse:kanto_brock_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§7Brock's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:cerulean_star"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:water_gym",
+                    "destination": "cobbleverse:kanto_misty_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§bMisty's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:lieutenant_medal"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:electric_gym",
+                    "destination": "cobbleverse:kanto_ltsurge_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§6Lt.Surge's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:nature_fan"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:grass_gym",
+                    "destination": "cobbleverse:kanto_erika_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§aErika's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:ninja_poison"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:poison_gym",
+                    "destination": "cobbleverse:kanto_koga_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§5Koga's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:hypnotic_whip"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:psychic_gym",
+                    "destination": "cobbleverse:kanto_sabrina_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§dSabrina's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:boss_ring"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:dark_gym",
+                    "destination": "cobbleverse:kanto_giovanni_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§8Giovanni's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    }
+  ]
+}

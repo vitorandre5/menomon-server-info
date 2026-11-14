@@ -79,6 +79,8 @@ Ativos e desativados (`.disabled`). Hash sha256 abreviado.
 | LumyMon-0.6.6.jar | lumymon | 0.6.6 | ativo | 2.3 | 5c999a0fcc5bf4bd |
 | LumyMon-0.6.6.jar.orig-2026-11-11 | lumymon | 0.6.6 | desativado | 2.3 | 00ad0ddb4bbac26b |
 | mega_showdown-fabric-1.3.3+1.8.4+1.21.1-release.jar | mega_showdown | 1.3.3+1.8.4+1.21.1-release | ativo | 20.3 | b1062efe2e5bc026 |
+| menomon-mapa-marcador-1.0.0.jar | menomon_mapa_marcador | 1.0.0 | ativo | 0.0 | d918c8535e861db5 |
+| menomon-montaria-lag-1.0.0.jar | menomon_montaria_lag | 1.0.0 | ativo | 0.0 | 6543014458cb93c4 |
 | midnightlib-fabric-1.10.0+1.21.1.jar | midnightlib | 1.10.0 | ativo | 0.1 | 1fce2e43c5deece2 |
 | MinerTrack-2.1.2.0+fabric.jar | minertrack | 2.1.2.0 | ativo | 2.9 | 095e52d942acde2f |
 | moar-concrete-1.3.1.jar | moarconcrete | 1.3.1 | ativo | 0.8 | 0e6e7b95b55ca13a |

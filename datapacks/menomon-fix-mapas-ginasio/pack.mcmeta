@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "Menomon: mapas dos cartografos do LumyMon apontam para o ginasio mais proximo (skip_existing_chunks false) e sem trocas de Nether/End que sempre davam mapa em branco"
+  }
+}

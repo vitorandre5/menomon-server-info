@@ -1,0 +1,366 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 8.0,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:rock_tome"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:rock_gym",
+                    "destination": "cobbleverse:hoenn_petra_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§7Petra's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:fighting_glove"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:fighting_gym",
+                    "destination": "cobbleverse:hoenn_rudi_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§6Rudi's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:electric_connector"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:electric_gym",
+                    "destination": "cobbleverse:hoenn_walter_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§eWalter's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:fire_lighter"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:fire_gym",
+                    "destination": "cobbleverse:hoenn_fiammetta_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§cFiammetta's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:normal_tablet"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:normal_gym",
+                    "destination": "cobbleverse:hoenn_norman_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§fNorman's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:flying_feather"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:flying_gym",
+                    "destination": "cobbleverse:hoenn_alice_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§bAlice's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:psychic_medallion"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:psychic_gym",
+                    "destination": "cobbleverse:hoenn_tell_pat_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§5Tell & Pat's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:water_rod"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:water_gym",
+                    "destination": "cobbleverse:hoenn_adriano_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§9Adriano's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 5.0
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 1.0,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "lumymon:steel_hat"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:map"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "lumymon:league",
+                    "destination": "cobbleverse:hoenn_league_complex",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100,
+                    "skip_existing_chunks": false
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§2Hoenn League",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 80.0
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 10.0
+    }
+  ]
+}
