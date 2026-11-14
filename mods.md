@@ -32,7 +32,8 @@ Ativos e desativados (`.disabled`). Hash sha256 abreviado.
 | CobbleDollars-fabric-2.0.0+Beta-6.1+1.21.1.jar | cobbledollars | 2.0.0+Beta-6.1+1.21.1 | ativo | 0.5 | a007523e2dd8c6f4 |
 | CobbleFurnies-fabric-1.2.jar | cobblefurnies | 1.2 | ativo | 2.3 | c1230a58ca2369b9 |
 | cobblemon-additions-4.3.0.jar | cobblemon-additions | 4.3.0 | ativo | 3.2 | 333916c2d2a64693 |
-| cobblemon-battle-extras-fabric-1.13.45.jar | cobblemon-battle-extras | 1.13.45 | ativo | 1.5 | 099c3dafd5c7d29e |
+| cobblemon-battle-extras-fabric-1.13.45.jar.disabled | cobblemon-battle-extras | 1.13.45 | desativado | 1.5 | 099c3dafd5c7d29e |
+| cobblemon-battle-extras-fabric-1.13.47.jar | cobblemon-battle-extras | 1.13.47 | ativo | 1.5 | 8c489add554a5c9c |
 | cobblemon-battle-positions-1.1.3.jar | cobblemonbattlepositions | 1.1.2 | ativo | 0.1 | d76bbd753763dde4 |
 | Cobblemon-fabric-1.8.4+1.21.1.jar | cobblemon | 1.8.4+1.21.1 | ativo | 140.0 | 77c4866b2e4c38af |
 | cobblemonextrastructures-1.21.1-1.3.0-fabric.jar | cobblemonextrastructures | 1.3.0 | ativo | 1.1 | 9ce3b6eb6cf1f522 |
