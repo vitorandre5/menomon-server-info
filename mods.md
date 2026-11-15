@@ -64,7 +64,9 @@ Ativos e desativados (`.disabled`). Hash sha256 abreviado.
 | graves-3.4.4+1.21.jar | universal-graves | 3.4.4+1.21 | ativo | 1.7 | 3b46ddc0911b8bfc |
 | handcrafted-fabric-1.21.1-4.0.3.jar | handcrafted | 4.0.3 | ativo | 7.1 | 9609c27e2eeaed4c |
 | huge-structure-blocks-fabric-1.1.6.jar | hugestructureblocks | 1.1.6 | ativo | 0.1 | 759071bd7b1db436 |
+| ibo-3.1.0-fabric-1.21.jar | ibo | 3.1.0 | ativo | 0.0 | cd1d720f6453c4d6 |
 | Iceberg-1.21.1-fabric-1.3.2.jar | iceberg | 1.3.2 | ativo | 0.4 | 9214790af6fb75c1 |
+| Incendium_1.21.x_v5.4.4.jar | incendium | 5.4.3 | ativo | 4.3 | 285a4f69fe2391f2 |
 | inmis-2.8.2-1.21.1.jar | inmis | 2.8.2-1.21.1 | ativo | 0.1 | fc0fec298164994e |
 | jeed-1.21-2.3.2-fabric.jar | jeed | 1.21-2.3.2 | ativo | 0.2 | 8580e77bb3112fc5 |
 | jei-1.21.1-fabric-19.27.0.340.jar | jei | 19.27.0.340 | ativo | 1.6 | 80c35be9e42fca71 |

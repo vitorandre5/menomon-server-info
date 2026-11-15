@@ -25,6 +25,7 @@
    "minecraft:custom_data": {
     "menomon_invocacao": "koraidon"
    },
+   "minecraft:custom_model_data": 4170013,
    "minecraft:item_name": "{\"translate\":\"menomon_inv.item.name\",\"fallback\":\"Summon: %s\",\"with\":[{\"text\":\"Koraidon\"}],\"color\":\"gold\"}",
    "minecraft:lore": [
     "{\"translate\":\"menomon_inv.lore.where.nether\",\"fallback\":\"Use in the Nether to summon %s.\",\"with\":[{\"text\":\"Koraidon\"}],\"color\":\"gray\",\"italic\":false}",

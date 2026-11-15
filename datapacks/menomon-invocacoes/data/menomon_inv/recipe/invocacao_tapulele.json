@@ -25,6 +25,7 @@
    "minecraft:custom_data": {
     "menomon_invocacao": "tapulele"
    },
+   "minecraft:custom_model_data": 4170002,
    "minecraft:item_name": "{\"translate\":\"menomon_inv.item.name\",\"fallback\":\"Summon: %s\",\"with\":[{\"text\":\"Tapu Lele\"}],\"color\":\"gold\"}",
    "minecraft:lore": [
     "{\"translate\":\"menomon_inv.lore.where.beach\",\"fallback\":\"Use on a beach to summon %s.\",\"with\":[{\"text\":\"Tapu Lele\"}],\"color\":\"gray\",\"italic\":false}",

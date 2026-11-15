@@ -4,6 +4,18 @@
       "type": "other",
       "name": "Console"
     },
+    "time": 1794683548687,
+    "type": "Profiler",
+    "data": {
+      "type": "file",
+      "value": "./config/spark/profile-2026-11-14_16.12.28.sparkprofile"
+    }
+  },
+  {
+    "user": {
+      "type": "other",
+      "name": "Console"
+    },
     "time": 1794637481784,
     "type": "Profiler",
     "data": {

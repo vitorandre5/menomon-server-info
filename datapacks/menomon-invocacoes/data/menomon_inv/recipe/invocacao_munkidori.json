@@ -25,6 +25,7 @@
    "minecraft:custom_data": {
     "menomon_invocacao": "munkidori"
    },
+   "minecraft:custom_model_data": 4170009,
    "minecraft:item_name": "{\"translate\":\"menomon_inv.item.name\",\"fallback\":\"Summon: %s\",\"with\":[{\"text\":\"Munkidori\"}],\"color\":\"gold\"}",
    "minecraft:lore": [
     "{\"translate\":\"menomon_inv.lore.where.forest\",\"fallback\":\"Use in a forest to summon %s.\",\"with\":[{\"text\":\"Munkidori\"}],\"color\":\"gray\",\"italic\":false}",

@@ -25,6 +25,7 @@
    "minecraft:custom_data": {
     "menomon_invocacao": "thundurus"
    },
+   "minecraft:custom_model_data": 4170006,
    "minecraft:item_name": "{\"translate\":\"menomon_inv.item.name\",\"fallback\":\"Summon: %s\",\"with\":[{\"text\":\"Thundurus\"}],\"color\":\"gold\"}",
    "minecraft:lore": [
     "{\"translate\":\"menomon_inv.lore.where.storm\",\"fallback\":\"Use in the Overworld during a thunderstorm to summon %s.\",\"with\":[{\"text\":\"Thundurus\"}],\"color\":\"gray\",\"italic\":false}",

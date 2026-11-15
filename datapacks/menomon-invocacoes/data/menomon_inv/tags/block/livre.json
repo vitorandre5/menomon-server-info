@@ -1,0 +1,12 @@
+{
+ "values": [
+  "#minecraft:air",
+  "#minecraft:replaceable",
+  "#minecraft:small_flowers",
+  "#minecraft:saplings",
+  {
+   "id": "cobblemon:big_root",
+   "required": false
+  }
+ ]
+}

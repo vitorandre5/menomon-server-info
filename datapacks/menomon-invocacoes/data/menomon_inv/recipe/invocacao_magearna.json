@@ -25,6 +25,7 @@
    "minecraft:custom_data": {
     "menomon_invocacao": "magearna"
    },
+   "minecraft:custom_model_data": 4170017,
    "minecraft:item_name": "{\"translate\":\"menomon_inv.item.name\",\"fallback\":\"Summon: %s\",\"with\":[{\"text\":\"Magearna\"}],\"color\":\"gold\"}",
    "minecraft:lore": [
     "{\"translate\":\"menomon_inv.lore.where.any\",\"fallback\":\"Use anywhere to summon %s.\",\"with\":[{\"text\":\"Magearna\"}],\"color\":\"gray\",\"italic\":false}",
