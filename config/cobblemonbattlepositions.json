@@ -1,5 +1,5 @@
 {
-  "horizontalSearchRadius": 48,
+  "horizontalSearchRadius": 10,
   "verticalSearchRange": 6,
   "doublesOffset": 2.0,
   "triplesOffset": 3.0,
