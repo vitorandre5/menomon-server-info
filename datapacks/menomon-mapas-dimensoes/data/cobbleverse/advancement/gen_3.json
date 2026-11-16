@@ -1,0 +1,36 @@
+{
+ "parent": "cobbleverse:root",
+ "display": {
+  "title": {
+   "translate": "advancements.cobbleverse.gen_3"
+  },
+  "description": {
+   "translate": "advancements.cobbleverse.gen_3.description"
+  },
+  "icon": {
+   "id": "cobbleversebadges:hoenn_league_trophy"
+  },
+  "announce_to_chat": false,
+  "show_toast": false,
+  "hidden": false,
+  "frame": "task"
+ },
+ "criteria": {
+  "started_gen3": {
+   "conditions": {
+    "trainer_ids": [
+     "johto_champion_lance"
+    ]
+   },
+   "trigger": "rctmod:defeat_count"
+  }
+ },
+ "requirements": [
+  [
+   "started_gen3"
+  ]
+ ],
+ "rewards": {
+  "function": "menomon_mapas:recompensa_gen_3"
+ }
+}

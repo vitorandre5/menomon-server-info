@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:blasting",
+ "category": "blocks",
+ "ingredient": {
+  "item": "legendarymonuments:galar_particle_ore"
+ },
+ "result": {
+  "id": "legendarymonuments:galar_particle"
+ },
+ "experience": 2,
+ "cookingtime": 100
+}

@@ -1,0 +1,16 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "pattern": [
+  "NNN",
+  "N N",
+  "NNN"
+ ],
+ "key": {
+  "N": {
+   "item": "legendarymonuments:distortion_cobblestone"
+  }
+ },
+ "result": {
+  "id": "minecraft:furnace"
+ }
+}

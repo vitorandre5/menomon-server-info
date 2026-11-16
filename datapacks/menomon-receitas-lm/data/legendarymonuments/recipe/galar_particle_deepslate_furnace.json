@@ -1,0 +1,12 @@
+{
+ "type": "minecraft:smelting",
+ "category": "blocks",
+ "ingredient": {
+  "item": "legendarymonuments:deepslate_galar_particle_ore"
+ },
+ "result": {
+  "id": "legendarymonuments:galar_particle"
+ },
+ "experience": 2,
+ "cookingtime": 200
+}

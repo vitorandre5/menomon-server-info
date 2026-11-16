@@ -1,1 +1,1 @@
-function menomon_end:spawn_macro {props:"rayquaza shiny=yes level=100 persistent=true uncatchable=yes"}
+function menomon_end:spawn_macro {props:"rayquaza shiny=yes level=100 persistent=true uncatchable=yes mega_evolution=mega"}

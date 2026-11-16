@@ -6,4 +6,5 @@ execute store result storage menomon_mapas:t x int 1 run scoreboard players get 
 execute store result storage menomon_mapas:t z int 1 run scoreboard players get #z mb_tmp
 data modify storage menomon_mapas:t d set value "the_end"
 $data modify storage menomon_mapas:t m set value "$(m)"
-function menomon_mapas:buscar with storage menomon_mapas:t
+$data modify storage menomon_mapas:t s set value "$(s)"
+$function menomon_mapas:buscar_$(modo) with storage menomon_mapas:t
