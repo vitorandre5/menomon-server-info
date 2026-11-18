@@ -1,0 +1,401 @@
+#Smash Mode: players can control their sent-out Pokémon.
+enabled = true
+#Pokémon in Smash Mode can hit other players and their Pokémon (the server's PvP setting must also be on).
+allowPvp = false
+#Range of special moves, in blocks.
+# Default: 24.0
+# Range: 4.0 ~ 64.0
+beamRange = 24.0
+#Multiplies every move cooldown.
+# Default: 1.0
+# Range: 0.1 ~ 10.0
+cooldownScale = 1.0
+#Minimum ticks between ANY two moves (global cooldown, like the CobbleAction moveGlobalCd).
+# Default: 54
+# Range: 0 ~ 400
+moveGlobalCd = 54
+#Damage to players and non-Pokémon mobs = Pokémon damage x this.
+# Default: 0.25
+# Range: 0.0 ~ 10.0
+mobDamageScale = 0.25
+#Damage taken while in Smash Mode, as a share of the Pokémon's HP per player heart-bar (20 = whole bar).
+# Default: 0.5
+# Range: 0.0 ~ 10.0
+incomingDamageScale = 0.5
+#Scales all real-time Pokémon damage. Lower = longer fights. Level only gives a small edge; skill does the rest.
+# Default: 0.5
+# Range: 0.05 ~ 5.0
+realtimeDamageScale = 0.5
+#Extra damage per level your Pokémon is above a wild one (up to 2.5x). Weaker wild Pokémon also hit you for less.
+# Default: 0.025
+# Range: 0.0 ~ 0.2
+trainerLevelBonus = 0.025
+#A wild Pokémon above your level takes this much less damage per level of its lead (feedback 2026-11-16: a level 10 must not beat a level 40).
+# Default: 0.03
+# Range: 0.0 ~ 0.2
+wildLeadResist = 0.03
+#...but never less than this share of the damage.
+# Default: 0.1
+# Range: 0.01 ~ 1.0
+wildLeadFloor = 0.1
+#A wild Pokémon above your level hits this much harder per level of its lead.
+# Default: 0.08
+# Range: 0.0 ~ 0.5
+wildLeadPower = 0.08
+#...up to this many times as hard.
+# Default: 4.0
+# Range: 1.0 ~ 10.0
+wildLeadCap = 4.0
+#Hits stagger a wild Pokémon this much less per level of its lead (down to a quarter).
+# Default: 0.05
+# Range: 0.0 ~ 0.2
+wildLeadStun = 0.05
+#A wild Pokémon this many levels above your controlled Pokémon attacks on sight.
+# Default: 5
+# Range: 1 ~ 100
+wildAggroLead = 5
+#...when you come within this many blocks of it.
+# Default: 10
+# Range: 0 ~ 48
+wildAggroRange = 10
+#Ticks a wild Pokémon takes to react when a fight starts (less with a level lead).
+# Default: 6
+# Range: 0 ~ 40
+wildReaction = 6
+#At this level lead a wild Pokémon is at full pressure: no hesitation and half the pause between attacks.
+# Default: 20
+# Range: 1 ~ 100
+wildPressureLevels = 20
+#A fighting wild Pokémon stunned this many ticks within 3 s shrugs off stuns for a moment, so it can't be held still.
+# Default: 20
+# Range: 1 ~ 200
+wildPoise = 20
+#...for this many ticks.
+# Default: 30
+# Range: 0 ~ 200
+wildArmor = 30
+#Sleep from a move lasts at least this many ticks (feedback 2026-11-16; was 60).
+# Default: 40
+# Range: 1 ~ 600
+sleepMinTicks = 40
+#...plus up to this many more at random (was 60).
+# Default: 30
+# Range: 0 ~ 600
+sleepSpreadTicks = 30
+#After waking, ticks before the same target can be put to sleep again, so nobody is sleep-locked.
+# Default: 100
+# Range: 0 ~ 1200
+sleepImmunityTicks = 100
+#Healing moves (Recover, Roost, Rest, Synthesis, Wish...) wait this many times the usual 5 s status cooldown.
+# Default: 3.0
+# Range: 1.0 ~ 10.0
+healCooldownScale = 3.0
+#In a fight, a flyer can stay airborne this many seconds on a full stamina bar (free travel is unlimited).
+# Default: 6
+# Range: 1 ~ 120
+flightSeconds = 6
+#Seconds on the ground to refill the bar from empty.
+# Default: 4
+# Range: 1 ~ 120
+flightRefillSeconds = 4
+#An empty bar grounds the flyer this many ticks.
+# Default: 40
+# Range: 0 ~ 400
+flightTiredTicks = 40
+#A hit while airborne in a fight drops the flyer and grounds it this many ticks.
+# Default: 40
+# Range: 0 ~ 400
+flightKnockdownTicks = 40
+#Effects sample (item 8a) for Shadow Ball, Aura Sphere, Flamethrower, Thunderbolt, status landings and hit bursts: OLD = the mod's own looks, BLEND = the mod's looks toned down with Cobblemon's particles on the charge, trail and impact, COBBLEMON = Cobblemon's particles alone, VANILLA = every move (and the M1) uses only vanilla Minecraft particles and sounds, one signature per type (table in docs). VANILLA is the default; set vfxStyle=BLEND to go back.
+#Allowed Values: OLD, BLEND, COBBLEMON, VANILLA
+vfxStyle = "VANILLA"
+#In Smash Mode, legendary, mythical and Ultra Beast Pokemon fight with their signature move kit from smash_kits instead of their last four level-up moves. Turn-based battles always use their real moves.
+legendKits = true
+#In Smash Mode, legendary, mythical and Ultra Beast Pokemon feel like a threat: an awakening roar, a bigger body, an aura, a stronger signature move, and stuns and knockback from other Pokemon do less to them. They still take normal damage.
+legendPresence = true
+
+#Stamina (one bar: flight, M1 and heavy). Each Pokemon's values come from its real stats (level, IVs, EVs and nature included), not a per-species table.
+[stamina]
+	#A stat of this size counts as ratio 1.0 (average Pokemon). Ratio = (stat / this) ^ 0.5, clamped below.
+	# Default: 200.0
+	# Range: 20.0 ~ 1000.0
+	refStat = 200.0
+	#Lowest quality ratio, so a weak Pokemon is still playable.
+	# Default: 0.65
+	# Range: 0.2 ~ 1.0
+	minRatio = 0.65
+	#Highest quality ratio.
+	# Default: 1.6
+	# Range: 1.0 ~ 4.0
+	maxRatio = 1.6
+	#Out of a fight, flying drains this share of the in-fight rate (1 = same, 0 = free travel).
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	flightTravelDrain = 0.35
+	#After the bar hits 0 the Pokemon cannot take off again until it recovers this many percent.
+	# Default: 25
+	# Range: 0 ~ 100
+	flightRestartPct = 25
+	#Percent of the bar one M1 hit costs for an average Pokemon (a hard hitter pays more, a tough one less).
+	# Default: 7.0
+	# Range: 0.0 ~ 100.0
+	m1Cost = 7.0
+	#A heavy attack costs this many times an M1.
+	# Default: 3.0
+	# Range: 0.0 ~ 20.0
+	heavyCostFactor = 3.0
+	#The guard only covers hits from the side the mouse/camera points at: this many degrees to each side of that direction.
+	# Default: 80
+	# Range: 10 ~ 180
+	shieldHalfAngle = 80
+	#Percent of the bar one dodge costs (the player's dodge has no cooldown of its own; only this cost and a 6-tick debounce).
+	# Default: 20.0
+	# Range: 0.0 ~ 100.0
+	dodgeCost = 20.0
+	#Ticks without spending (or flying) before the bar starts refilling.
+	# Default: 16
+	# Range: 0 ~ 200
+	regenDelay = 16
+	#How much (HP+Speed) lengthens flight time (seconds = flightSeconds x ratio^this).
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	enduranceExp = 1.0
+	#How much Speed shortens the refill time (seconds = flightRefillSeconds / ratio^this).
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	rechargeExp = 1.0
+	#How much attack-vs-endurance changes the M1 cost.
+	# Default: 0.6
+	# Range: 0.0 ~ 3.0
+	costExp = 0.6
+	#How much (HP+Defense+Sp.Def) improves the guard (less guard drain, a little less damage through it).
+	# Default: 0.8
+	# Range: 0.0 ~ 3.0
+	defenseExp = 0.8
+	#How much Speed shortens move and M1 cooldowns (cooldown x speedRatio^-this; 0 = off). A fast Pokemon recharges sooner, a slow one later.
+	# Default: 1.0
+	# Range: 0.0 ~ 3.0
+	speedCooldownExp = 1.0
+	#IVs: a perfect-IV Pokemon deals (and resists) this much more, a 0-IV one this much less (0.10 = +-10% each way; 0 = off). Uses the total of all six IVs (hyper training included).
+	# Default: 0.1
+	# Range: 0.0 ~ 0.5
+	ivEffect = 0.1
+
+#Fighting depth (design/COMBAT_MECHANICS.md, approved 2026-11-14). Times are in ticks, 20 to a second.
+[combat]
+	#Heavy: how long left click must be held before the heavy starts winding up.
+	# Default: 6
+	# Range: 1 ~ 40
+	heavyHold = 6
+	#Heavy: the shortest wind-up the opponent sees before it lands.
+	# Default: 8
+	# Range: 0 ~ 40
+	heavyMinWindup = 8
+	#Heavy: it fires by itself after this long held.
+	# Default: 24
+	# Range: 1 ~ 100
+	heavyMaxWindup = 24
+	#Heavy: no M1, guard or dodge for this long after it fires.
+	# Default: 14
+	# Range: 0 ~ 60
+	heavyRecovery = 14
+	#Heavy: power (typeless, from Attack, like M1s; a jab is 15, the knockback blow 35).
+	# Default: 40.0
+	# Range: 1.0 ~ 200.0
+	heavyPower = 40.0
+	#Heavy: guard meter it drains (of 100) when blocked.
+	# Default: 45.0
+	# Range: 0.0 ~ 100.0
+	heavyGuardDrain = 45.0
+	#Heavy: body-lengths it knocks the target back.
+	# Default: 2.0
+	# Range: 0.0 ~ 10.0
+	heavyKnock = 2.0
+	#Heavy: how long the target is stunned.
+	# Default: 14
+	# Range: 0 ~ 60
+	heavyStun = 14
+	#Heavy: how long the user is stunned when hit during the wind-up.
+	# Default: 8
+	# Range: 0 ~ 60
+	heavyCancelStun = 8
+	#Parry: raising the guard this soon before a hit parries it.
+	# Default: 5
+	# Range: 0 ~ 20
+	parryWindow = 5
+	#Parry: raising the guard again this soon after dropping it gives no parry window (no mashing).
+	# Default: 15
+	# Range: 0 ~ 60
+	parryLockout = 15
+	#Parry: how long the attacker is stunned.
+	# Default: 20
+	# Range: 0 ~ 60
+	parryStun = 20
+	#Parry: guard meter given back (of 100).
+	# Default: 20.0
+	# Range: 0.0 ~ 100.0
+	parryGuardRefund = 20.0
+	#Block breaker: the white glint shows this long before the blow.
+	# Default: 4
+	# Range: 0 ~ 20
+	breakerGlint = 4
+	#Grab: reach in blocks, plus both bodies' half-widths.
+	# Default: 2.5
+	# Range: 0.5 ~ 8.0
+	grabReach = 2.5
+	#Grab: the reach-out; any hit on the grabber in this time cancels the grab.
+	# Default: 6
+	# Range: 1 ~ 40
+	grabReachOut = 6
+	#Grab: how long the caught target is held before the move lands; a dodge in this time breaks free.
+	# Default: 6
+	# Range: 1 ~ 40
+	grabHold = 6
+	#Grab: how long the grabber is stunned when a hit cancels the reach-out.
+	# Default: 10
+	# Range: 0 ~ 60
+	grabCancelStun = 10
+	#Grab: how long the grabber stumbles when it catches nothing.
+	# Default: 16
+	# Range: 0 ~ 60
+	grabWhiff = 16
+	#Fighting links: after an M1 or Fighting move hits, the next Fighting move used this soon skips its wind-up.
+	# Default: 12
+	# Range: 0 ~ 60
+	linkWindow = 12
+	#Fighting links: most links in a row.
+	# Default: 3
+	# Range: 0 ~ 10
+	linkMax = 3
+	#Fighting links: each link after the first deals this much less (0.1 = 100%, 90%, 80%).
+	# Default: 0.1
+	# Range: 0.0 ~ 0.5
+	linkFalloff = 0.1
+	#Fighting links: extra ticks of stun on the target, so the next link connects.
+	# Default: 6
+	# Range: 0 ~ 40
+	linkStunBonus = 6
+	#Minimize: how much smaller the body and hitbox get per stage (each stage fades after 15 s).
+	# Default: 0.15
+	# Range: 0.0 ~ 0.5
+	minimizeStep = 0.15
+	#Minimize: the body and hitbox never get smaller than this share of normal size.
+	# Default: 0.6
+	# Range: 0.1 ~ 1.0
+	minimizeFloor = 0.6
+	#Legendary entry effects: Kyogre's rain, Groudon's sun, Rayquaza's Air Lock and the rest change moves in the area round them (never damage, never blocks).
+	legendWeather = true
+	#Legendary entry effects: radius of the area, in blocks.
+	# Default: 24.0
+	# Range: 4.0 ~ 96.0
+	legendWeatherRadius = 24.0
+	#Double Team: how many copies (approved idea A8 says 5 to 6).
+	# Default: 5
+	# Range: 1 ~ 8
+	decoyCount = 5
+	#Double Team: copies never stray further than this from the user, in blocks.
+	# Default: 8.0
+	# Range: 2.0 ~ 32.0
+	decoyLeash = 8.0
+	#Double Team: power of a copy's small hit (typeless, from Attack; an M1 jab is 15). 0 turns copy hits off.
+	# Default: 6.0
+	# Range: 0.0 ~ 40.0
+	decoyStrikePower = 6.0
+	#Double Team: ticks between one copy's hits.
+	# Default: 30
+	# Range: 5 ~ 200
+	decoyStrikeCooldown = 30
+	#Knocking out a wild Pokémon in Smash Mode gives experience (never in a duel or free-for-all).
+	realtimeExperience = true
+	#Multiplies that experience.
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	realtimeExperienceScale = 1.0
+	#Most levels one knock-out can give (0 = no cap), so one over-levelled kill can't jump a whole evolution stage.
+	# Default: 3
+	# Range: 0 ~ 100
+	realtimeExperienceLevelCap = 3
+	#Ticks a player has to stop a mid-fight evolution with the order key before it starts.
+	# Default: 60
+	# Range: 0 ~ 400
+	evolvePromptTicks = 60
+	#A controlled Pokémon that reaches a level-up evolution in a fight evolves there and then (Cobblemon's own evolution rules).
+	evolveMidFight = true
+	#Opponent AI: the skill of a training dummy placed without one (/rtc dummy): easy, normal or hard.
+	dummyDifficulty = "normal"
+
+#Field uses (design/FIELD_USES_PLAN.md): Pokémon working outside fights, by the order key or as a pasture job.
+[field]
+	#Master switch for every field use.
+	enabled = true
+	#lumberjack on or off.
+	lumberjack = true
+	#quarry on or off.
+	quarry = true
+	#sprinkler on or off.
+	sprinkler = true
+	#picker on or off.
+	picker = true
+	#gardener on or off.
+	gardener = true
+	#harvester on or off.
+	harvester = true
+	#stoker on or off.
+	stoker = true
+	#smelter on or off.
+	smelter = true
+	#freezer on or off.
+	freezer = true
+	#shaker on or off.
+	shaker = true
+	#lamp on or off.
+	lamp = true
+	#porter on or off.
+	porter = true
+	#generator on or off.
+	generator = true
+	#A pasture job does one step this often, in ticks (the cooldown that keeps farms slower than a player).
+	# Default: 100
+	# Range: 20 ~ 2400
+	stepTicks = 100
+	#Stoker: burn time one step gives a furnace, in ticks.
+	# Default: 100
+	# Range: 0 ~ 1600
+	stokeTicks = 100
+	#Smelter: cooking progress one step adds to a lit furnace, in ticks.
+	# Default: 40
+	# Range: 0 ~ 200
+	smeltTicks = 40
+	#Flash (order key): how long the light lasts, in ticks.
+	# Default: 3600
+	# Range: 200 ~ 72000
+	flashTicks = 3600
+	#Headbutt: chance a shaken tree drops a wild Pokémon (picked by Cobblemon's spawn rules; owner must be online).
+	# Default: 0.05
+	# Range: 0.0 ~ 1.0
+	shakeSpawnChance = 0.05
+	#Generator: the pasture block's redstone signal strength (kept low on purpose).
+	# Default: 4
+	# Range: 1 ~ 4
+	generatorStrength = 4
+	#Headbutt: chance a shaken tree drops an apple.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	appleChance = 0.25
+
+#Raio visual do Minecraft (sem dano, fogo ou blocos; so visual e som) sobre o Pokemon atingido pelos golpes de trovao. Cada golpe liga/desliga sozinho.
+[lightning]
+	#Liga/desliga todos os raios visuais.
+	enabled = true
+	wildboltstorm = true
+	gmaxvoltcrash = true
+	thunder = true
+	gigavolthavoc = true
+	ragingbolt = true
+	fusionbolt = true
+	thunderbolt = true
+	gmaxstunshock = true
+	stokedsparksurfer = true
+	maxlightning = true
+	catastropika = true
+	10000000voltthunderbolt = true

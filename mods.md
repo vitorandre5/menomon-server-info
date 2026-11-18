@@ -26,7 +26,7 @@ Ativos e desativados (`.disabled`). Hash sha256 abreviado.
 | Clumps-fabric-1.21.1-19.0.0.1.jar | clumps | 19.0.0.1 | ativo | 0.0 | 49e406cb2872e24a |
 | cobbleaction-0.5.4.jar.disabled | cobbleaction | 0.5.4 | desativado | 0.6 | 7c221ea1d03755bc |
 | cobbleaction-0.5.5.jar.disabled | cobbleaction | 0.5.5 | desativado | 0.6 | 48bd2b88fad40394 |
-| cobbleaction-0.5.6.jar | cobbleaction | 0.5.6 | ativo | 0.6 | 6303e7e9b9ca7761 |
+| cobbleaction-0.5.6.jar.disabled | cobbleaction | 0.5.6 | desativado | 0.6 | 6303e7e9b9ca7761 |
 | cobbleaction-7.0.jar.disabled | cobbleaction | 0.5.3 | desativado | 0.6 | b818e1eaf621fad5 |
 | cobblecuisine-2.2.0-1.8.4-alpha1.jar | cobblecuisine | 2.2.0-alpha1 | ativo | 1.2 | 0949a5e7cc5d3ff0 |
 | CobbleDollars-fabric-2.0.0+Beta-6.1+1.21.1.jar | cobbledollars | 2.0.0+Beta-6.1+1.21.1 | ativo | 0.5 | a007523e2dd8c6f4 |
@@ -85,6 +85,7 @@ Ativos e desativados (`.disabled`). Hash sha256 abreviado.
 | mega_showdown-fabric-1.3.3+1.8.4+1.21.1-release.jar | mega_showdown | 1.3.3+1.8.4+1.21.1-release | ativo | 20.3 | b1062efe2e5bc026 |
 | menomon-arc-concluidas-1.0.0.jar | menomon_arc_concluidas | 1.0.0 | ativo | 0.0 | 36270d20c3377f3d |
 | menomon-mapa-marcador-1.0.0.jar | menomon_mapa_marcador | 1.0.0 | ativo | 0.0 | d918c8535e861db5 |
+| menomon-mercy-1.0.0.jar | menomon_mercy | 1.0.0 | ativo | 0.0 | db691aab4b3f9240 |
 | menomon-montaria-lag-1.0.1.jar | menomon_montaria_lag | 1.0.0 | ativo | 0.0 | c6e8a1681a0d3996 |
 | menomon-radar-unico-1.0.0.jar | menomon_radar_unico | 1.0.0 | ativo | 0.0 | e92add30d6cbecd1 |
 | menomon-sem-mobs-1.0.0.jar | menomon_sem_mobs | 1.0.0 | ativo | 0.0 | 9f02f3a72c99589e |
@@ -112,6 +113,7 @@ Ativos e desativados (`.disabled`). Hash sha256 abreviado.
 | radical-gyms-structures-0.7.jar | rgs | 1.21 | ativo | 2.1 | 44bde94c720a3039 |
 | rctapi-fabric-1.21.1-0.16.2-beta.jar | rctapi | 0.16.2-beta | ativo | 0.3 | 02534113700d1ddf |
 | rctmod-fabric-1.21.1-0.19.2-beta.jar | rctmod | 0.19.2-beta | ativo | 6.8 | 2e3d2c61012900fc |
+| realtime-fabric-1.0.0-alpha.1+fabric.menomon.1.jar | realtimecobblemon | 1.0.0-alpha.1 | ativo | 90.3 | 9a04ffac14da53c4 |
 | rechiseled-1.2.4-fabric-mc1.21.jar | rechiseled | 1.2.4 | ativo | 11.9 | 621eb411d8847050 |
 | repurposed_structures-7.5.21+1.21.1-fabric.jar | repurposed_structures | 7.5.21+1.21.1-fabric | ativo | 8.2 | c3a6ab373dce927c |
 | resourcefullib-fabric-1.21-3.0.12.jar | resourcefullib | 3.0.12 | ativo | 0.5 | 93064c5aff85bf5e |

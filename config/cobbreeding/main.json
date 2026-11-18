@@ -37,7 +37,7 @@
   ],
   "maxNumberOfActivatedPasturePerPlayer": -1,
   "pastureInventorySize": 5,
-  "eggEncryptionEnabled": true,
+  "eggEncryptionEnabled": false,
   "cobblemonSizeVariationsCompatEnabled": true,
   "alphaChances": 0.05,
   "inheritAlpha": false
