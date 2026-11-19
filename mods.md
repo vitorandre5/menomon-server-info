@@ -70,8 +70,8 @@ Ativos e desativados (`.disabled`). Hash sha256 abreviado.
 | inmis-2.8.2-1.21.1.jar | inmis | 2.8.2-1.21.1 | ativo | 0.1 | fc0fec298164994e |
 | jeed-1.21-2.3.2-fabric.jar | jeed | 1.21-2.3.2 | ativo | 0.2 | 8580e77bb3112fc5 |
 | jei-1.21.1-fabric-19.27.0.340.jar | jei | 19.27.0.340 | ativo | 1.6 | 80c35be9e42fca71 |
-| journeymap-fabric-1.21.1-6.0.0-beta.85-menomon.jar | journeymap | 1.21.1-6.0.0-beta.85 | ativo | 4.2 | a42be6852dd5b15a |
 | journeymap-fabric-1.21.1-6.0.0-beta.85.jar.disabled | journeymap | 1.21.1-6.0.0-beta.85 | desativado | 4.2 | 2227ebd07584793d |
+| journeymap-fabric-1.21.1-6.0.9.jar | journeymap | 1.21.1-6.0.9 | ativo | 4.4 | 4e820703a90d1aad |
 | krypton-0.2.8.jar | krypton | 0.2.8 | ativo | 0.2 | 94f195819b24e5da |
 | ledger-1.3.5.jar | ledger | 1.3.5 | ativo | 20.5 | d3a79b685b861b9f |
 | legendarymonuments-fabric-1.21.1-8.2-Keep-Fighting.jar | legendarymonuments | 8.1-Love-for-All | ativo | 16.9 | e5b4b71be80532da |
@@ -113,7 +113,7 @@ Ativos e desativados (`.disabled`). Hash sha256 abreviado.
 | radical-gyms-structures-0.7.jar | rgs | 1.21 | ativo | 2.1 | 44bde94c720a3039 |
 | rctapi-fabric-1.21.1-0.16.2-beta.jar | rctapi | 0.16.2-beta | ativo | 0.3 | 02534113700d1ddf |
 | rctmod-fabric-1.21.1-0.19.2-beta.jar | rctmod | 0.19.2-beta | ativo | 6.8 | 2e3d2c61012900fc |
-| realtime-fabric-1.0.0-alpha.1+fabric.menomon.1.jar | realtimecobblemon | 1.0.0-alpha.1 | ativo | 90.3 | 9a04ffac14da53c4 |
+| realtime-fabric-1.0.0-alpha.1+fabric.menomon.1.jar | realtimecobblemon | 1.0.0-alpha.4 | ativo | 90.3 | bd53785d7036a77b |
 | rechiseled-1.2.4-fabric-mc1.21.jar | rechiseled | 1.2.4 | ativo | 11.9 | 621eb411d8847050 |
 | repurposed_structures-7.5.21+1.21.1-fabric.jar | repurposed_structures | 7.5.21+1.21.1-fabric | ativo | 8.2 | c3a6ab373dce927c |
 | resourcefullib-fabric-1.21-3.0.12.jar | resourcefullib | 3.0.12 | ativo | 0.5 | 93064c5aff85bf5e |
